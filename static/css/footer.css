@@ -1,0 +1,25 @@
+body {
+    font-family: sans-serif;
+}
+
+.footer_icon {
+    height: 30px;
+    width: 30px;
+}
+
+
+.footer_flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 60px;
+
+    padding: 0px 15px 0px 15px;
+
+    background-color: white;
+
+    box-shadow: 0px -2px 3px 0px rgba(112,112,112,0.75);
+    -webkit-box-shadow: 0px -2px 3px 0px rgba(112,112,112,0.75);
+    -moz-box-shadow: 0px -2px 3px 0px rgba(112,112,112,0.75);
+}
