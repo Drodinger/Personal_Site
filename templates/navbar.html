@@ -1,4 +1,4 @@
-<DOCTYPE html>
+<!DOCTYPE html>
 
 <head>
 
@@ -18,8 +18,12 @@
 			<img class="nav_logo" src="{{ url_for('static', filename='/ui/mandala_icon.svg') }}"/>
 		</div> 
 		<div class="navbar_center">
-			<div id="nav_button_about_me" class="nav_button" href="/">About me</div>
-			<div id="nav_button_contact" class="nav_button" href="contact">Contact</div>
+			<a class="navbar_link" href="{{ url_for('about') }}">
+				<div id="nav_button_about_me" class="nav_button">About me</div>
+			</a>
+			<a class="navbar_link"	href="{{ url_for('contact') }}">
+				<div id="nav_button_contact" class="nav_button">Contact</div>
+			</a>
 		</div>
 
 		<div class="navbar_right">
