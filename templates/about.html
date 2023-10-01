@@ -1,55 +1,28 @@
-<!DOCTYPE html>
-<head>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <title>John Doe</title>
-	<link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='/ui/mandala_icon.svg') }}">
+{% extends 'base.html' %}
+
+{% block title %}John Doe{% endblock %}
+
+{% block description %}John Doe{% endblock %}
+
+{% block stylesheet %}{{ url_for('static', filename='/css/about.css') }}{% endblock %}
+
+{% block content %}  
+    <div class="banner_container">
+        <img class="banner" src="{{ url_for('static', filename='/banner/ledge_fjord_banner.avif') }}">
+    </div>
+
+    <div class="paragraph_header_container">
+        <p class="paragraph_header">
+            About me
+        </p>
+    </div>
+
+    <div class="paragraph_container">
+        <p class="paragraph">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed risus ultricies tristique nulla aliquet enim tortor at auctor. Congue nisi vitae suscipit tellus mauris a. Euismod lacinia at quis risus sed vulputate odio ut enim. Accumsan tortor posuere ac ut consequat semper viverra. Cursus euismod quis viverra nibh cras. Ullamcorper a lacus vestibulum sed arcu non. Imperdiet massa tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada. Quis enim lobortis scelerisque fermentum dui faucibus. Posuere ac ut consequat semper. Sed nisi lacus sed viverra tellus in hac habitasse. Elementum sagittis vitae et leo duis ut. Amet commodo nulla facilisi nullam vehicula ipsum a arcu. Hac habitasse platea dictumst vestibulum. Id diam vel quam elementum pulvinar etiam. Ipsum a arcu cursus vitae congue mauris rhoncus. Laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt eget. Nisl pretium fusce id velit ut tortor.
+        </p>
+    </div>
+{% endblock %}
 
 
-    <style>
-
-		#about_me_banner {
-		  height: 300px;
-		  width: 100%;
-		  object-fit: cover;
-		}
-
-		#main_container {
-			max-width: 720px ;
-			margin: 0 auto 0 auto ;
-		}
-
-		body {
-			background-color: white;
-		}
-
-	</style>
-
-</head>
-
-
-<body>
-
-
-	{% include('navbar.html') %}
-
-
-	<div id="main_container" class="container mt-3 allign-items-center bs-body-bg-rgb">
-
-		<img id="about_me_banner" class="rounded" src="{{ url_for('static', filename='/banner/ledge_fjord_banner.avif') }}">
-
-		<p class="h1 mt-5 d-flex justify-content-center">
-			About me
-		</p>
-
-		<p class="fs-5 mt-3 d-flex justify-content-center">
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed risus ultricies tristique nulla aliquet enim tortor at auctor. Congue nisi vitae suscipit tellus mauris a. Euismod lacinia at quis risus sed vulputate odio ut enim. Accumsan tortor posuere ac ut consequat semper viverra. Cursus euismod quis viverra nibh cras. Ullamcorper a lacus vestibulum sed arcu non. Imperdiet massa tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada. Quis enim lobortis scelerisque fermentum dui faucibus. Posuere ac ut consequat semper. Sed nisi lacus sed viverra tellus in hac habitasse. Elementum sagittis vitae et leo duis ut. Amet commodo nulla facilisi nullam vehicula ipsum a arcu. Hac habitasse platea dictumst vestibulum. Id diam vel quam elementum pulvinar etiam. Ipsum a arcu cursus vitae congue mauris rhoncus. Laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt eget. Nisl pretium fusce id velit ut tortor.
-		</p>
-
-	</div>
-
-
-	{% include('footer.html') %}
-
-
-</body>
+{% include('footer.html') %}
