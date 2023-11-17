@@ -42,8 +42,8 @@ body {
 #about_me_container {
     padding-right: 41.5%;
     padding-left: 2.5%;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
     background-size: cover;
 }
 
@@ -103,6 +103,7 @@ body {
     color: white;
     font: sans-serif;
     line-height: 125%;
+    font-size: 1.15vw;
 }
 
 
