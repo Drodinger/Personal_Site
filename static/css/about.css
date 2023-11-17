@@ -30,26 +30,83 @@ body {
 }
 
 .section_container {
-    background-color: white;
     margin-bottom: 75px;
-    padding-top: 50px;
-    border-top: 3px dotted #000000;
+/*    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);*/
+    display: flex;
 }
 
+#about_me_container {
+    padding-right: 350px;
+    padding-left: 10px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-size: cover;
+}
+
+#skills_container {
+    padding-right: 10px;
+    padding-left: 370px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-size: cover;
+    background-position: center;
+}
+
+#education_and_qualification_container {
+    padding-right: 350px;
+    padding-left: 10px;
+    padding-top: 200px;
+    padding-bottom: 60px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+#hobbies_and_interests_container {
+    
+    padding-right: 10px;
+    padding-left: 370px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-size: cover;
+    background-position: center;
+}
+
+#references_container {
+    padding-right: 350px;
+    padding-left: 100px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-size: cover;
+    background-position: center;
+}
 
 .subsection_container {
     margin-bottom: 30px;
 }
 
+.paragraph_container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 90%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
 .paragraph {
-    text-align: center;
-    color: black;
+    text-align: left;
+    color: white;
+    font: sans-serif;
+    line-height: 125%;
 }
 
 
 .skills_category_paragraph {
-    text-align: center;
-    color: black;
+    text-align: left;
+    color: white;
 }
 
 h3 {
