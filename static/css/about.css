@@ -110,6 +110,11 @@ body {
     font-size: 1.15vw;
 }
 
+#working_via_github_subsection {
+    margin-top: 11vh;
+    margin-bottom: 11vh;
+}
+
 h3 {
     text-align: center;
     color: #FA9C1B;
@@ -118,4 +123,136 @@ h3 {
 h2 {
     text-align: center;
     color: #F58216;
+}
+
+
+@media (max-width: 768px) {
+    body {
+        font-family: sans-serif;
+        background-color: white;
+    }
+
+    .banner_container {
+        margin-top: 3vh;
+        margin-bottom: 3vh;
+    }
+
+    .banner {
+        aspect-ratio: 2.82;
+        width: 100%;
+        object-fit: cover;
+      }
+
+    .main_container {
+          max-width: 100%;
+          margin: 0 0 0 0;
+      }
+
+
+    .section_subheading_container {
+        color: #FA9C1B;
+    }
+
+    .section_container {
+        margin-bottom: 3vh;
+    /*    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);*/
+        display: flex;
+    }
+
+    #about_me_container {
+        padding-right: 41.5%;
+        padding-left: 2.5%;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+        background-size: cover;
+    }
+
+    #skills_container {
+        padding-right: 1.5%;
+        padding-left: 42.8%;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+        background-size: cover;
+        background-position: center;
+    }
+
+    #education_and_qualification_container {
+        padding-right: 41.5%;
+        padding-left: 2.5%;
+        padding-top: 9vh;
+        padding-bottom: 1vh;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #hobbies_and_interests_container {
+        
+        padding-right: 2%;
+        padding-left: 43%;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+        background-size: cover;
+        background-position: center;
+    }
+
+    #references_container {
+        padding-right: 40%;
+        padding-left: 9.5%;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .subsection_container {
+        margin-bottom: 2vh;
+    }
+
+    .paragraph_container {
+        padding-top: 0.2vh;
+        padding-bottom: 0.2vh;
+        padding-left: 4%;
+        padding-right: 4%;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .paragraph {
+        text-align: left;
+        color: white;
+        font: sans-serif;
+        line-height: 125%;
+        font-size: 2vw;
+    }
+
+
+    .skills_category_paragraph {
+        text-align: left;
+        color: white;
+        font-size: 2vw;
+    }
+
+    #self_taught_subsection {
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+    }
+
+    #a-levels_subsection {
+        margin-top: 4vh;
+        margin-bottom: 0vh;
+    }
+      
+
+    h3 {
+        text-align: center;
+        color: #FA9C1B;
+    }
+
+    h2 {
+        text-align: center;
+        color: #F58216;
+    }
+    
 }
