@@ -56,8 +56,8 @@ body {
 #education_and_qualification_container {
     padding-right: 41.5%;
     padding-left: 2.5%;
-    padding-top: 25vh;
-    padding-bottom: 5vh;
+    padding-top: 14vw;
+    padding-bottom: 2.5vw;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -83,7 +83,7 @@ body {
 }
 
 .subsection_container {
-    margin-bottom: 9.5vh;
+    margin-bottom: 4.5vh;
 }
 
 .paragraph_container {
@@ -110,9 +110,9 @@ body {
     font-size: 1.15vw;
 }
 
-#working_via_github_subsection {
-    margin-top: 11vh;
-    margin-bottom: 11vh;
+#self_taught_subsection {
+    margin-top: 0vh;
+    margin-bottom: 0vh;
 }
 
 h3 {
@@ -208,7 +208,7 @@ h2 {
     }
 
     .subsection_container {
-        margin-bottom: 2vh;
+        margin-bottom: 3.8vw;
     }
 
     .paragraph_container {
@@ -235,8 +235,8 @@ h2 {
     }
 
     #self_taught_subsection {
-        margin-top: 5vh;
-        margin-bottom: 5vh;
+        margin-top: 0vh;
+        margin-bottom: 0vh;
     }
 
     #a-levels_subsection {
