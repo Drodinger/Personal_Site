@@ -4,8 +4,8 @@ body {
 }
 
 .banner_container {
-    margin-top: 3vh;
-    margin-bottom: 8vh;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
 }
 
 .banner {
@@ -15,13 +15,13 @@ body {
   }
 
 .main_container {
-      max-width: 65%;
+      max-width: 65vw;
       margin: 0 auto 0 auto;
   }
 
 .section_heading_container {
     color: #F58216;
-    margin-bottom: 1vh;
+    margin-bottom: 1vw;
 }
 
 .section_subheading_container {
@@ -29,7 +29,7 @@ body {
 }
 
 .section_container {
-    margin-bottom: 10vh;
+    margin-bottom: 5vw;
 /*    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);*/
@@ -37,26 +37,26 @@ body {
 }
 
 #about_me_container {
-    padding-right: 41.5%;
-    padding-left: 2.5%;
-    padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-right: 40%;
+    padding-left: 1.2%;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
     background-size: cover;
 }
 
 #skills_container {
-    padding-right: 1.5%;
-    padding-left: 42.8%;
-    padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-right: 0.8vw;
+    padding-left: 26.8vw;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
     background-size: cover;
     background-position: center;
 }
 
 #education_and_qualification_container {
-    padding-right: 41.5%;
-    padding-left: 2.5%;
-    padding-top: 14vw;
+    padding-right: 26.8vw;
+    padding-left: 1vw;
+    padding-top: 13.5vw;
     padding-bottom: 2.5vw;
     background-size: cover;
     display: flex;
@@ -65,33 +65,32 @@ body {
 
 #hobbies_and_interests_container {
     
-    padding-right: 2%;
-    padding-left: 43%;
-    padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-right: 1vw;
+    padding-left: 26.8vw;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
     background-size: cover;
     background-position: center;
 }
 
 #references_container {
-    padding-right: 40%;
-    padding-left: 12%;
-    padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-right: 51%;
+    padding-left: 11%;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
     background-size: cover;
     background-position: center;
 }
 
 .subsection_container {
-    margin-bottom: 4.5vh;
+    margin-bottom: 1.9vw;
 }
 
 .paragraph_container {
-    padding-top: 1vh;
-    padding-bottom: 1vh;
-    padding-left: 4%;
-    padding-right: 4%;
-    max-width: 90%;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -99,7 +98,7 @@ body {
     text-align: left;
     color: white;
     font: sans-serif;
-    line-height: 125%;
+    line-height: 1.5vw;
     font-size: 1.15vw;
 }
 
@@ -133,8 +132,8 @@ h2 {
     }
 
     .banner_container {
-        margin-top: 3vh;
-        margin-bottom: 3vh;
+        margin-top: 3vw;
+        margin-bottom: 3vw;
     }
 
     .banner {
@@ -154,7 +153,7 @@ h2 {
     }
 
     .section_container {
-        margin-bottom: 3vh;
+        margin-bottom: 3vw;
     /*    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
         -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
         -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);*/
@@ -162,27 +161,27 @@ h2 {
     }
 
     #about_me_container {
-        padding-right: 41.5%;
-        padding-left: 2.5%;
-        padding-top: 1vh;
-        padding-bottom: 1vh;
+        padding-right: 41.5vw;
+        padding-left: 2.5vw;
+        padding-top: 1vw;
+        padding-bottom: 1vw;
         background-size: cover;
     }
 
     #skills_container {
-        padding-right: 1.5%;
-        padding-left: 42.8%;
-        padding-top: 5vh;
-        padding-bottom: 5vh;
+        padding-right: 1.5vw;
+        padding-left: 42.8vw;
+        padding-top: 5vw;
+        padding-bottom: 5vw;
         background-size: cover;
         background-position: center;
     }
 
     #education_and_qualification_container {
-        padding-right: 41.5%;
-        padding-left: 2.5%;
-        padding-top: 9vh;
-        padding-bottom: 1vh;
+        padding-right: 41.5vw;
+        padding-left: 2.5vw;
+        padding-top: 21vw;
+        padding-bottom: 1vw;
         background-size: cover;
         display: flex;
         flex-direction: column;
@@ -190,19 +189,19 @@ h2 {
 
     #hobbies_and_interests_container {
         
-        padding-right: 2%;
-        padding-left: 43%;
-        padding-top: 5vh;
-        padding-bottom: 5vh;
+        padding-right: 2vw;
+        padding-left: 43vw;
+        padding-top: 5vw;
+        padding-bottom: 5vw;
         background-size: cover;
         background-position: center;
     }
 
     #references_container {
-        padding-right: 40%;
-        padding-left: 9.5%;
-        padding-top: 5vh;
-        padding-bottom: 5vh;
+        padding-right: 40vw;
+        padding-left: 9.5vw;
+        padding-top: 5vw;
+        padding-bottom: 5vw;
         background-size: cover;
         background-position: center;
     }
@@ -212,8 +211,8 @@ h2 {
     }
 
     .paragraph_container {
-        padding-top: 0.2vh;
-        padding-bottom: 0.2vh;
+        padding-top: 0.2vw;
+        padding-bottom: 0.2vw;
         padding-left: 4%;
         padding-right: 4%;
         background-color: rgba(0, 0, 0, 0.5);
@@ -240,7 +239,7 @@ h2 {
     }
 
     #a-levels_subsection {
-        margin-top: 4vh;
+        margin-top: 4vw;
         margin-bottom: 0vh;
     }
       
